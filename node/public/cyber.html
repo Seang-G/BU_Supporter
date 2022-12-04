@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/cyber.css">
+</head>
+<body>
+  <form id="login">
+    <p><input type="text" id="id" name="id" placeholder="ID"></p>
+    <p><input type="password" id="pw" name="pw" placeholder="PASSWORD"></p>
+    <p><input type="button" id="submit" value="login"></p>
+  </form>
+</body>
+<script>  
+  const loginForm = document.getElementById("login");
+  const submit = document.getElementById("submit");
+  submit.addEventListener("click", getData)
+
+  function getData(){
+    loginForm.classList.toggle("hidden");
+  }
+</script>
+</html>
