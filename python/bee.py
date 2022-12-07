@@ -13,8 +13,8 @@ def crwal_bee():
     }
     data = {
         "pro": "1",
-        "rUserid": "20171880",
-        "rPW": "jiown0903!"
+        "rUserid": "아이디",
+        "rPW": "암호"
     }
     # 페이지(POST)
     data_page = {
